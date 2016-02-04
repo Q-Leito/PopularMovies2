@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_popular"
+            android:icon="@mipmap/ic_whatshot_grey600_36dp"
+            android:title="Most Popular"/>
+        <item
+            android:id="@+id/nav_highest_rated"
+            android:icon="@mipmap/ic_stars_grey600_36dp"
+            android:title="Highest Rated"/>
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@mipmap/ic_favorite_grey600_36dp"
+            android:title="Favorite"/>
+    </group>
+
+</menu>
